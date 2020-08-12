@@ -100,10 +100,6 @@ nav {
 
 
 @media screen and (max-width: 480px){
-	header {
-		background-size: cover;
-		background-position: center;
-	}
 
 	body {
 		overflow-x: hidden;
@@ -112,13 +108,13 @@ nav {
 
 	.nav-links {
 		position: absolute;
-		/* right: 10px; */
+		right: 0px;
 		height: 92vh;
 		top: 8vh;
 		display: flex;
 		flex-direction: column;
 		align-items: center;
-		background-color: white;
+		background-color: gray;
 		width: 50%;
 		transform: translateX(100%);
 		color: black;
