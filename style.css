@@ -10,10 +10,11 @@ html {
 }
 
 header {
-	background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/prof-pic.jpg);
+	background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.0)), url(img/prof-pic.jpg);
 	height: 100vh; /* viewport height of the header element */
     background-size: cover; /* cover vs. contain || cover is to cover the entire element's background area */
     background-position: center; /* positions the background image on the center */
+    background-attachment: fixed;
 }
 
 nav {
@@ -96,6 +97,14 @@ nav {
 	.burger {
 		display: block;
 	}
+
+
+	footer .row {
+	width: 50%;
+	margin: 0 auto;
+}
+	
+
 }
 
 
@@ -159,4 +168,62 @@ nav {
 .toggle .line3 {
 	transform: rotate(+45deg) translate(-5px,-6px);
 	transition: 0.5s;
+}
+
+
+/******************************/
+/* FOOTER SECTION */
+/******************************/
+
+footer {
+    background: #333;
+    padding: 40px;
+}
+
+
+.footer-text {
+	font-family: 'Poppins', sans-serif;
+	text-align: center;
+	margin-bottom: 40px;
+	color: white;
+	letter-spacing: 3px;
+}
+
+
+.row {
+	margin: 0 auto;
+}
+
+.social-links {
+	width: 50%;
+	list-style: none;
+	display: flex;	
+	margin: 0 auto; 
+}
+
+.social-links li {
+	/* border: 1px solid white;  */
+	margin-right: 10px;
+	text-align: center;
+	margin: 0 auto; 
+}
+
+.social-links li a {
+	color: white;
+	text-decoration: none;
+}
+
+.social-links li a img {
+	width: 36px;
+	transition: 0.5s;
+}
+
+ .social-links li a img:hover {
+	transform: scale(1.35);
+	transition: 0.5s;
+}
+
+.foot-soc-alignment {
+	display: inline-block;
+	width: 33%;
 }
