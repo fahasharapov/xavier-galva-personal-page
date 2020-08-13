@@ -114,7 +114,7 @@ nav {
 		display: flex;
 		flex-direction: column;
 		align-items: center;
-		background-color: gray;
+		background-color: white;
 		width: 50%;
 		transform: translateX(100%);
 		color: black;
@@ -149,6 +149,7 @@ nav {
 
 .toggle .line1 {
 	transform: rotate(-45deg) translate(-5px,6px);
+	transition: 0.5s;
 }
 
 .toggle .line2 {
@@ -157,4 +158,5 @@ nav {
 
 .toggle .line3 {
 	transform: rotate(+45deg) translate(-5px,-6px);
+	transition: 0.5s;
 }
