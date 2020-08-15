@@ -9,6 +9,11 @@ html {
 	  scroll-behavior: smooth;
 }
 
+
+h4 {
+	font-weight: bold;
+}
+
 header {
 	background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.0)), url(img/prof-pic.jpg);
 	height: 100vh; /* viewport height of the header element */
@@ -74,6 +79,14 @@ footer {
     padding: 40px;
 }
 
+.row {
+	display: flex;
+	justify-content: center;
+}
+
+.row ul li {
+	display: inline-block;
+}
 
 .footer-text {
 	font-family: 'Poppins', sans-serif;
@@ -84,38 +97,7 @@ footer {
 }
 
 
-.row {
-	margin: 0 auto;
-}
 
-.social-links {
-	width: 50%;
-	list-style: none;
-	display: flex;	
-	margin: 0 auto; 
-}
-
-.social-links li {
-	/* border: 1px solid white;  */
-	margin-right: 10px;
-	text-align: center;
-	margin: 0 auto; 
-}
-
-.social-links li a {
-	color: white;
-	text-decoration: none;
-}
-
-.social-links li a img {
-	width: 36px;
-	transition: 0.5s;
-}
-
- .social-links li a img:hover {
-	transform: scale(1.35);
-	transition: 0.5s;
-}
 
 
 @keyframes navLinkFade {
@@ -206,6 +188,8 @@ footer {
 	}
 
 	.nav-links {
+		font-size: 12px;
+		font-weight: bold;
 		position: absolute;
 		right: 0px;
 		height: 70vh;
@@ -227,6 +211,20 @@ footer {
 		display: block;
 	}
 
+
+.footer-text {
+	font-family: 'Poppins', sans-serif;
+	text-align: center;
+	margin-bottom: 20px;
+	color: white;
+	letter-spacing: 1px;
+	font-size: 12px;
+}
+
+
+li img {
+	width: 40px;
+}
 
 }
 
