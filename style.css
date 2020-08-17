@@ -220,6 +220,28 @@ blockquote:before {
 
 
 
+/*PLAYS page styles*/
+
+
+.play-name b{
+	font-size: 110%;
+}
+
+.play-name {
+	font-size: 110%;
+	margin-bottom: 1px;
+}
+
+
+.genre {
+	font-size: 11px;
+	margin-bottom: 20px;
+}
+
+
+
+/*MEDIA START*/
+
 
 @media screen and (max-width: 1024px) {
 
@@ -306,6 +328,14 @@ li img:hover {
 	transition: 0.3s;
 	transform: scale(1.15);
 
+}
+
+.play-name b{
+	margin-top: 5px;
+}
+
+.play-name {
+	margin-top: 5px;
 }
 
 
@@ -407,6 +437,15 @@ li img:hover {
 footer {
 	margin-top: 0px;
 	height: 30vh;
+}
+
+
+.play-name b{
+	margin-top: 5px;
+}
+
+.play-name {
+	margin-top: 5px;
 }
 
 
