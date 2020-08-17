@@ -112,7 +112,9 @@ li img:hover {
 
 /*Bio page styles*/
 
-
+.background {
+	background-color: #f4f4f4;
+}
 
 .container {
 	margin-top: 40px;
@@ -120,6 +122,7 @@ li img:hover {
 	flex-wrap: wrap;
 	justify-content: space-between;
 	height: 100vh;
+	width: 100%;
 }
 
 
@@ -213,7 +216,10 @@ blockquote:before {
 		.nav-links {
 			width: 60%;
 		}
+
+
 }
+
 
 
 @media screen and (max-width: 768px) {
@@ -221,7 +227,7 @@ blockquote:before {
 		overflow-x: hidden;
 	}
 
-
+	
 
 	.nav-links {
 		position: absolute;
@@ -232,7 +238,7 @@ blockquote:before {
 		flex-direction: column;
 		align-items: center;
 		background-color: white;
-		width: 50%;
+		width: 100%;
 		transform: translateX(100%);
 		color: black;
 	}
@@ -245,6 +251,35 @@ blockquote:before {
 		display: block;
 	}
 
+
+	.container {
+		min-height: 100%;
+		height: auto !important;
+		height: 100%;
+		margin: 0 auto -50px;
+		position: relative;
+		
+		display: flex;
+		flex-wrap: nowrap;
+		font-size: 13px;
+		justify-content: flex-end;
+		text-align: justify-all;
+	}
+
+
+	figure {
+		margin-top: 40px;
+	}
+
+	.bio-text {
+		margin-top: 30px;
+		margin-left: 30px;
+	}
+
+footer {
+	margin-top: 10px;
+	height: 50vh;
+}
 
 	footer .row {
 	width: 50%;
@@ -271,14 +306,45 @@ li img:hover {
 	body {
 		overflow-x: hidden;
 
-	}
 
+	}
 
 
 	header {
 	   background-attachment: scroll;
 	}
 
+	.container {
+		min-height: 100%;
+		height: auto !important;
+		height: 100%;
+		margin: 0 auto -50px;
+		position: relative;
+
+		display: flex;
+		flex-wrap: wrap;
+		font-size: 12px;
+	}
+
+
+	figure {
+		margin-top: 40px;
+	}
+
+	.bio-text {
+		margin-top: 30px;
+	}
+
+blockquote {
+	font-family: 'Poppins', sans-serif;
+    padding: 2%;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+    font-style: italic;
+    line-height: 140%;
+    position: relative;
+    font-size: 12px;
+}
 	.nav-links {
 		font-size: 12px;
 		font-weight: bold;
@@ -326,7 +392,10 @@ li img:hover {
 
 }
 
-
+footer {
+	margin-top: 10px;
+	height: 40vh;
+}
 
 
 }
