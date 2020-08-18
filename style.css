@@ -240,6 +240,39 @@ blockquote:before {
 
 
 
+/*Recognition page styles*/
+
+.recog {
+	height: 80vh;
+	font-family: 'Poppins', sans-serif;
+
+}
+
+
+.recog-header {
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 35px;
+	margin-left: 20px;
+	margin-top: 20px;
+	letter-spacing: 2px;
+	margin-bottom: 50px;
+}
+
+.recog-title {
+	margin-left: 20px;
+	margin-top: 20px;
+	font-weight: bold;
+	font-size: 30px;
+	margin-bottom: 0px;
+}
+
+.recog-text {
+	font-size: 18px;
+	margin-left: 20px;
+}
+
+
 /*MEDIA START*/
 
 
